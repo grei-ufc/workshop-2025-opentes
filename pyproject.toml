@@ -1,0 +1,15 @@
+[project]
+name = "opentes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.11"
+dependencies = [
+    "numpy>=2.3.4",
+]
+
+[project.scripts]
+opentes = "opentes.main:main"
+
+[tool.uv]
+package = true
